@@ -32,7 +32,9 @@ $(function(){
 		fly.src = "sounds/fly.mp3";
 		score_audio.src = "sounds/score.mp3";
 		document.addEventListener('keydown', moveUp);
-
+		$(cvs).click(function(event) {
+			moveUp();
+		});
 		function moveUp(){
 			yPos -= 40;
 			fly.play();
