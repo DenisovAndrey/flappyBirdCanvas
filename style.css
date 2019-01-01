@@ -1,3 +1,8 @@
+button{
+	outline: none !important;
+	cursor: pointer;
+}
+
 .mainMenu{
 	background: url('images/flappy_bird_bg.png') no-repeat top left;
 	background-size: contain;
@@ -16,7 +21,6 @@
 	position: absolute;
 	top: 220px;
 	color: #FF6E00;
-	outline: none !important;
 }
 
 .mainMenu__menu button:nth-child(1){
